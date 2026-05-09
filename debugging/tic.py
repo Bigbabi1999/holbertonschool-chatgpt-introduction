@@ -38,8 +38,8 @@ def tic_tac_toe():
     player = "X"
     while not check_winner(board):
         print_board(board)
-        row = get_valid_input(f"Enter row (0, 1, or 2) for plater {player}")
-        col = get_valid_input(f"Enter column (0, 1, or 2) for plater {player}")
+        row = get_valid_input(f"Enter row (0, 1, or 2) for plater {player}:")
+        col = get_valid_input(f"Enter column (0, 1, or 2) for plater {player}:")
         if board[row][col] == " ":
             board[row][col] = player
             if player == "X":
