@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def print_board(board):
     for i, row in enumerate(board):
-        print(' | '.join(row))
+        print(' | '.join(row)(" "))
         if i < 2:
             print("---+---+---")
         # print("-" * 5)
