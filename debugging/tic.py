@@ -30,7 +30,7 @@ def get_valid_input(prompt):
         # Check if input is only 0,1 or 2
         if value in ["0", "1", "2"]:
             return int(value)
-        
+
         print("Invalid input! Please enter only 0, 1, or 2")
 
 def tic_tac_toe():
