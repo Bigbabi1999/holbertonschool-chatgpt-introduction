@@ -6,6 +6,11 @@ def print_board(board):
         if i < 2:
             print("---+---+---")
 
+def print_board(board):
+    for i in range(3):
+        print(" " + " | ".join(board[i]))
+        if i < 2:
+            print("---+---+---")
 
 def check_winner(board):
     for row in board:
